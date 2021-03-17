@@ -9,6 +9,17 @@ body{
 	padding:0;
 	/* lihgt gray hex is #f4f4f4 */
 }
+/*#map {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+*/
 header{
 	background: coral;
 	color: #fff;
