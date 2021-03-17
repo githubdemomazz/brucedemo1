@@ -27,23 +27,18 @@ header{
 	padding:0px 0px;
 	border-bottom:#e8491d 3px solid;
 }
-header img{
+/*header img{
 	width:50px;
-}
-header h1{
-	margin:0;
-}
-header .highlight{
+}header .highlight{
 	color: red;
 	font-weight: bold;
-}
-header  h1{
+}*/
+header h1{
 	margin:0;
-		float: left;
-margin-top: 6px;
-margin-right: 30px;
+	float: left;
+	margin-top: 6px;
+	margin-right: 30px;
 }
-
 header nav{
 	float:right;
 	padding-top:25px;
@@ -72,7 +67,7 @@ list-style: none;
 	text-transform: uppercase;
 }
 #navbar .current{
-color: red;
+	color: red;
 	font-weight: bold;
 }
 
@@ -80,7 +75,8 @@ color: red;
 	color:blue;
 	font-weight: bold;
 }
-#navbar .current{
-color: red;
-	font-weight: bold;
-}
+
+
+
+
+
