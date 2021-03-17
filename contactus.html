@@ -29,13 +29,63 @@
 <section></section>
 <section>
 	<!--<a href="mailto:me@me.com">email me here!</a>-->
-<form action="https://formspree.io/f/{form_id}" method="post">
-  <label for="email">Your Email</label>
+<form action="https://formspree.io/f/moqpgzqk" method="post">
+  <label for="email">Your Email:</label>
   <input name="Email" id="email" type="email">
-  <textarea   name="body"></textarea>
+  <label for="body">Your Message:</label>
+  <textarea name="body"></textarea>
   <button type="submit">Submit</button>
 </form>
 <!--<form action="http://formspree.io/mazzucca12@gmail.com" method="post"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>-->
+<!--
+<form
+  action="https://formspree.io/f/moqpgzqk"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Send</button>
+
+
+  ---html with file upload 
+
+  <form
+  action="https://formspree.io/f/moqpgzqk"
+  method="POST"
+  enctype="multipart/form-data"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your file:
+    <input type="file" name="upload">
+  </label>
+  <button type="submit">Send</button>
+</form>`
+        break
+      case 'Formbutton':
+        modeSample = 'htmlmixed'
+        codeSample = `
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/moqpgzqk"})
+  </script>-->
+  <!-- formbutton code -->
+  <!--   <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/moqpgzqk"})
+  </script>-->
+</form>-->
 </section>
 <aside></aside>
 <footer id="footmain">
