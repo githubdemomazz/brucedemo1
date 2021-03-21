@@ -1,25 +1,10 @@
 body{
 	background-color: :orange;
 	color: #555;
-	/*font-family: arial, helvetica, sans-serif;
-	font-size: 16px;
-	line-height: 1.6em; */
 	font:16px/1.6em arial, helvetica, sans-serif;
 	margin:0;
 	padding:0;
-	/* lihgt gray hex is #f4f4f4 */
 }
-/*#map {
-  height: 100%;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-*/
 header{
 	background: coral;
 	color: #fff;
@@ -27,12 +12,6 @@ header{
 	padding:0px 0px;
 	border-bottom:#e8491d 3px solid;
 }
-/*header img{
-	width:50px;
-}header .highlight{
-	color: red;
-	font-weight: bold;
-}*/
 header h1{
 	margin:0;
 	float: left;
@@ -45,7 +24,7 @@ header nav{
 	padding-bottom: 15px;
 }
 .container2{
-	width: 90%; /* responsive */
+	width: 90%;
 	margin: auto;
 	overflow: hidden;
 }
