@@ -46,10 +46,8 @@ ul{
 .mainnav ul li{
 	padding: 0 10px;
 }
-.mainnav ul li a:hover{
+.notcurrent:hover{
 	padding-bottom: 3px;
-}
-.mainnav ul li a:hover{
 	border-bottom: 2px solid #262626;
 }
 .buttonaref{
@@ -58,7 +56,7 @@ ul{
 	border: 0;
 	font-weight: bold;
 	padding: 10px 20px;
-	background: orange;
+	background: red;
 	color: white;
 	font-size: 15px;
 	width: 200px;
@@ -86,8 +84,14 @@ ul{
 	margin-top: 80px;
 	margin-left: 40px;
 }
-
-
+.current{
+	color: red;
+	font-weight: bold;
+}
+.current:hover{
+	padding-bottom: 3px;
+	border-bottom: 2px solid red;
+}
 
 
 
