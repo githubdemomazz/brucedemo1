@@ -14,7 +14,7 @@ header{
 
 	width: 100%;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 3fr 5fr;
 }
 /*header h1{
 	margin:0;
@@ -65,7 +65,7 @@ header h1{
 }
 #showcase{
 	width: 100%; 
-	height: 80vh;
+	min-height: 80vh;
 	max-height: 90%;
 	background: url('../kitchen2.jpg') center center;
 	background-size: cover; /* or contain depending on what you want */
@@ -97,7 +97,41 @@ header h1{
 	padding-left: 20px;
 	padding-right: 20px;
 	opacity: 0.7;
-
 }
+
+#newsletter{
+	color: white;
+	background:#35424a;
+}
+#newsletter h1{
+	/*float: left;
+	margin: auto;
+	height: 100%;
+	text-align: center;
+	align-content: center;
+	vertical-align: middle;*/
+}
+#newsletter form{
+	/*float: right;
+	margin-top: 5px;
+	margin-bottom:10px;
+	margin-left: 30px;*/
+	margin: auto;
+	padding-left: 45px;
+}
+#newsletter input[type="email"]{
+	height: 25px;
+	width : 250px;
+}
+.containernews{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
 
 
