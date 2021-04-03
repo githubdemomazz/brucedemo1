@@ -21,6 +21,11 @@ header{
 	margin: auto;
 	overflow: hidden;
 }
+.containerH{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
 header nav{
 	padding-left: 15px;
 	padding-top:25px;
@@ -184,6 +189,23 @@ margin-top: 20px;
 #boxes3 .box1 img{
 	width:200px;
 }
+.main-col{
+	float:left;
+	width:60%;
+	box-sizing: border-box;
+	text-align: center;
+}
+iframe{
+	max-height: 189px;
+	max-width: 336px;
+}
+.ul_services{
+margin: 0;
+padding: 0;
+}
+.ul_services li{
+	list-style: none;
+}
 #footmain{
 	background: #333;
 	color: #fff;
@@ -204,7 +226,6 @@ margin-top: 20px;
 }
 
 footer{
-	background: #999333;
 	overflow: auto;
 }
 footer p{
@@ -220,6 +241,23 @@ footer a{
 footer a:hover{
 	color: blue;
 }
+#darksidebar{
+		float:right;
+		width:30%;
+	padding:15px;
+	background:#aa5500;
+	color:white;
+	margin-bottom: 10px;
+box-sizing: border-box;
+}
+#darksidebar .quote input, #darksidebar .quote textarea{
+width: 90%;
+padding: 5px;
+}
+
+
+
+
 
 
 
