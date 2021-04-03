@@ -30,8 +30,40 @@
 </section>
 <aside></aside>
 <footer id="footmain">
-	<p>copyright &copy; 2011 my website yall</p>
+	<div class="footer-cols">
+		<ul>
+			<li><a href="#">contact us</a></li>
+			<li><a href="#">support</a></li>
+			<li><a href="#">tax code</a></li>
+			<li><a href="#">laundromat</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">buzzwords</a></li>
+			<li><a href="#">sections</a></li>
+			<li><a href="#">graphics</a></li>
+			<li><a href="#">testimonials</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">this is footer</a></li>
+			<li><a href="#">international hubs</a></li>
+			<li><a href="#">message board</a></li>
+			<li><a href="#">about</a></li>
+		</ul>
+		<ul>
+			<li><a href="#">contact us again</a></li>
+			<li><a href="#">issues?</a></li>
+			<li><a href="#">technical support</a></li>
+			<li><a href="#">repair</a></li>
+		</ul>
+	</div>
+	<p id="cright" ></p>
+
 </footer>
+<script>
+var d = new Date();
+var n = d.getFullYear();
+document.getElementById("cright").innerHTML = "copyright &copy; " + n + " my website"; 
+</script>
 </body>
 </html>
 	
