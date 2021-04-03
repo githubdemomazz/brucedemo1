@@ -5,6 +5,10 @@ $(document).ready(function(){
   });
 });
 
+function getfullyear(){
+	var d = new Date();
+	var n = d.getFullYear();
+};
 
 
 

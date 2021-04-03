@@ -89,6 +89,19 @@ header h1{
 	text-align: center;
 	margin-top: 225px;
 	opacity: 0.7;
+	border-radius: 10px;
+}
+#datemailtho{
+	border-radius: 6px;
+	width: 200px;
+}
+.buttonc{
+height: 32px;
+background: #e8491d;
+padding-left: 7px;
+padding-right: 7px;
+color: white;
+border-radius: 10px;
 }
 #indexshowcaretext{
 	border: 2px solid black;
@@ -97,6 +110,7 @@ header h1{
 	padding-left: 20px;
 	padding-right: 20px;
 	opacity: 0.7;
+    border-radius: 10px;
 }
 
 #newsletter{
@@ -117,20 +131,56 @@ header h1{
 	margin-bottom:10px;
 	margin-left: 30px;*/
 	margin: auto;
-	padding-left: 45px;
 }
 #newsletter input[type="email"]{
 	height: 25px;
 	width : 250px;
 }
 .containernews{
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	overflow: hidden;
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 3fr 5fr;
+}
+.containernews h1{
+	padding-left: 15px;
+}
+#footmain{
+	background: #333;
+	color: #fff;
+	text-align: center;
+}
+.footer-cols{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+.footer-cols ul{
+	list-style: none;
+}
+.footer-cols li{
+	line-height: 2;
+	text-align: left;
 }
 
+footer{
+	background: #999333;
+	overflow: auto;
+}
+footer p{
+	margin: auto;
+	text-align: center;
+	margin-bottom: 40px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	color: blue;
+}
 
 
 
