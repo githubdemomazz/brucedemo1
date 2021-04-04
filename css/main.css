@@ -11,7 +11,6 @@ header{
 	min-height: 70px;
 	padding:0px 0px;
 	border-bottom:#e8491d 3px solid;
-
 	width: 100%;
 	display: grid;
 	grid-template-columns: 3fr 5fr;
@@ -171,7 +170,6 @@ aside ul li a{
 }
 .clr{
 	clear:both;
-	padding-top:1px;
 }
 #boxes3 {
 margin-top: 20px;
@@ -191,13 +189,13 @@ margin-top: 20px;
 }
 .main-col{
 	float:left;
-	width:60%;
+	width:70%;
 	box-sizing: border-box;
 	text-align: center;
-}
-iframe{
-	max-height: 189px;
-	max-width: 336px;
+	background-color:#aa5500;
+	color: white;
+	padding-bottom: 30px;
+	border-right: #e8491d 3px solid;
 }
 .ul_services{
 margin: 0;
@@ -205,7 +203,10 @@ padding: 0;
 }
 .ul_services li{
 	list-style: none;
+	text-align: left;
+	padding-left: 35px;
 }
+
 #footmain{
 	background: #333;
 	color: #fff;
@@ -245,7 +246,7 @@ footer a:hover{
 		float:right;
 		width:30%;
 	padding:15px;
-	background:#aa5500;
+	background:#333;
 	color:white;
 	margin-bottom: 10px;
 box-sizing: border-box;
@@ -254,11 +255,27 @@ box-sizing: border-box;
 width: 90%;
 padding: 5px;
 }
+.pointeradd {
+	cursor: pointer;
+}
+#mapsec{
+	background-color: #f5f5dc;
+	border-top: 3px solid #dcdcdc;
+	border-bottom: 3px solid #dcdcdc;
+	align-content: center;
+	text-align: center;
+}
+#mapsec iframe{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#mapsec div{
+	margin: auto;
 
-
-
-
-
+}
+#aboutmain{
+	  	/*background-image: linear-gradient(to bottom right, #96b096, #e1e8e1);*/
+}
 
 
 

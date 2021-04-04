@@ -5,9 +5,12 @@ $(document).ready(function(){
   });
 });
 
-function getfullyear(){
-	var d = new Date();
-	var n = d.getFullYear();
+function abcd(){
+	document.getElementById("getsanimage").style.backgroundImage = "url('housewithdriveway.jpg')";
+	document.getElementById("getsanimage").style.height = "950px";
+	document.getElementById("boxes3").style.paddingTop = "20px";
+	document.getElementById("getsanimage").style.backgroundPosition = "-250px -225px";
+	document.getElementById("getsanimage").style.backgroundRepeat = "no-repeat";
 };
 
 
