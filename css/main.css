@@ -192,10 +192,7 @@ margin-top: 20px;
 	width:70%;
 	box-sizing: border-box;
 	text-align: center;
-	background-color:#aa5500;
-	color: white;
 	padding-bottom: 30px;
-	border-right: #e8491d 3px solid;
 }
 .ul_services{
 margin: 0;
@@ -276,6 +273,8 @@ padding: 5px;
 #aboutmain{
 	  	/*background-image: linear-gradient(to bottom right, #96b096, #e1e8e1);*/
 }
-
+.demosizer{
+	max-width: 560px;
+}
 
 
