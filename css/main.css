@@ -276,5 +276,62 @@ padding: 5px;
 .demosizer{
 	max-width: 560px;
 }
+@media(max-width:800px){
+	header{
+		grid-template-columns: 1fr;
+	}
+	header nav{
+		padding-top: 0px;
+		justify-self: start;
+	}
+}
+@media(max-width:600px){
+	#newsletter h1, #newsletter form{
+		width: 100%;
+		float:none;
+	}
+	#newsletter h1, #newsletter form{
+		text-align: center;
+	}
+	#newsletter form{
+		margin-left: 0px;
+	}
+	#newsletter .buttonc{
+		display: block; 
+		width:80%;
+		border: 0;
+		margin: auto;
+	}
+	#newsletter form input[type="email"]{
+		width:80%;
+	}
+	.containernews{
+		grid-template-columns: 1fr;
+		padding-bottom: 25px;
+	}
+}
+@media(max-width:500px){
+	#indexshowcaseheader {
+		width: auto;
+		font-size: 18px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#indexshowcaretext{
+		width: auto;
+		font-size: 14px;
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	#navbar li{
+		float: none;
+		display: block;
+		padding: 10px;
+		padding-left: 15px;
+	}
+	header h1{
+		margin-bottom: 15px;
+	}
 
+}
 
