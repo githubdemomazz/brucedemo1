@@ -292,6 +292,7 @@ padding: 5px;
 	}
 	#newsletter h1, #newsletter form{
 		text-align: center;
+		padding: 0;
 	}
 	#newsletter form{
 		margin-left: 0px;
@@ -309,6 +310,40 @@ padding: 5px;
 		grid-template-columns: 1fr;
 		padding-bottom: 25px;
 	}
+	#idmain {
+    	float: none;
+    	width: 100%;
+    	padding: 0;
+    	margin: 0;
+	}
+	#sidebar{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#getsanimage{
+		visibility: hidden;
+		width: 0px;
+		height: 0px !important;
+	}
+	#boxes3{
+		padding-top: 0px !important;
+	}
+	#boxes3 .box1{
+		padding: 0;
+		margin-bottom: 10px;
+	}
+	#boxes3 .container3{
+		grid-template-columns: 1fr;
+	}
+	.footer-cols{
+		grid-template-columns: 1fr 1fr;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.footer-cols ul{
+		margin: 0;
+	}
 }
 @media(max-width:500px){
 	#indexshowcaseheader {
@@ -316,12 +351,14 @@ padding: 5px;
 		font-size: 18px;
 		padding-left: 15px;
 		padding-right: 15px;
+		visibility: hidden;
 	}
 	#indexshowcaretext{
 		width: auto;
 		font-size: 14px;
 		padding-left: 8px;
 		padding-right: 8px;
+		visibility: hidden;
 	}
 	#navbar li{
 		float: none;
