@@ -263,18 +263,32 @@ padding: 5px;
 	text-align: center;
 }
 #mapsec iframe{
-	padding-top: 30px;
-	padding-bottom: 30px;
 }
 #mapsec div{
 	margin: auto;
-
+}
+#mapsec1{
+	background-color: #f5f5dc;
+	border-top: 3px solid #dcdcdc;
+	border-bottom: 3px solid #dcdcdc;
+	align-content: center;
+	text-align: center;
+}
+#mapsec1 iframe{
+}
+#mapsec1 div{
+	margin: auto;
 }
 #aboutmain{
 	  	/*background-image: linear-gradient(to bottom right, #96b096, #e1e8e1);*/
 }
 .demosizer{
 	max-width: 560px;
+}
+.mapresizer{
+	width: 75%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 @media(max-width:800px){
 	header{

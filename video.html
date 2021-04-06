@@ -76,9 +76,32 @@
 </section>
 <div class="clr"></div>
 <section id="mapsec">
-	<div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30351.691266763843!2d-77.05891935720065!3d38.883289749423085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2sus!4v1615940984841!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</div>
+	<div class="google-maps">
+		<style>
+    		.google-maps {
+        		position: relative;
+        		padding-bottom: 75%; // This is the aspect ratio
+        		height: 0;
+        		overflow: hidden;
+    		}
+    		.google-maps iframe {
+        		position: absolute;
+        		top: 0;
+        		left: 0;
+        		width: 100% !important;
+        		height: 100% !important;
+    		}
+		</style>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30351.691266763843!2d-77.05891935720065!3d38.883289749423085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2sus!4v1615940984841!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</div>
+</section>
+<div class="clr"></div>
+<section id="mapsec1">
+	<div class="mapresizer">
+		<div class="google-maps">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6313.87675180982!2d176.06888854859127!3d-37.69764626813755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d6dc5b2ede5a1bd%3A0x62d63f12930f6155!2sWhite%20House%20Te%20Puna!5e0!3m2!1sen!2sus!4v1617733923019!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
 </section>
 <footer id="footmain">
 	<div class="footer-cols">
