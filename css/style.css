@@ -28,7 +28,8 @@ ul{
 	align-items: center;
 	height: 60px;
 	justify-content: space-between;
-	padding: 40px 0;
+	padding: 35px 0;
+	padding-top: 40px;
 	font-size: 13px;
 
 }
@@ -46,8 +47,10 @@ ul{
 .mainnav ul li{
 	padding: 0 10px;
 }
-.notcurrent:hover{
+.mainnav ul li a{
 	padding-bottom: 3px;
+}
+.notcurrent:hover{
 	border-bottom: 2px solid #262626;
 }
 .buttonaref{
@@ -92,6 +95,35 @@ ul{
 	padding-bottom: 3px;
 	border-bottom: 2px solid red;
 }
+.cardsect{
+	width: 100%;
+	padding-top: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.cardsect img{
+	width: 100%;
+}
+.overrider{
+	padding: 0px;
+	margin: 0px;
+}
+.cardsect h3{
+	margin-bottom: 5px;
+}
+.cardsect a{
+	display: inline-block;
+	padding-top: 10px;
+	color: blue;
+	text-transform:  uppercase;
+	font-weight: bold;
+}
+.cardsect a:hover i{
+	margin-left: 10px;
+}
+
+
 
 
 
