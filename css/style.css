@@ -101,6 +101,7 @@ ul{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 10px;
+	margin-bottom: 20px;
 }
 .cardsect img{
 	width: 100%;
@@ -122,9 +123,55 @@ ul{
 .cardsect a:hover i{
 	margin-left: 10px;
 }
-
-
-
-
-
-
+.formspreedoc{
+	width: 80%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	border: 3px black solid;
+	background-color: #F0F0F0;
+    /*box-shadow: 20px 20px black;*/
+}
+.formspreedoc form{
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc form textarea{
+width: 60%;
+}
+.formspreedoc form input[type="text"]{
+	width: 60%;
+}
+.formspreedoc form input[type="email"]{
+	width: 60%;
+}
+.formspreedoc h1{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc p{
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.formspreedoc form button{
+	margin-top: 10px;
+	border: 2px white solid;
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	/* top, right, bottom, and left */
+	padding: 15px 25px 15px 25px;		
+}
+.formspreedoc form div{
+	display: flex;
+	align-items:  center;
+	justify-content: center;
+	padding-bottom: 8px;
+	padding-top: 8px;
+}
+.formspreedoc2{
+	margin-top:30px;
+}
