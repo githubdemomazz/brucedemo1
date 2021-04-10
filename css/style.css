@@ -18,6 +18,9 @@ a{
 ul{
 	list-style: none;
 }
+.clr{
+	clear:both;
+}
 .container{
 	width: 90%;
 	max-width: 900px;
@@ -101,7 +104,7 @@ ul{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .cardsect img{
 	width: 100%;
@@ -131,6 +134,7 @@ ul{
 	margin: auto;
 	border: 2px black solid;
 	background-color: #F0F0F0;
+	margin-top: 15px;
     /*box-shadow: 20px 20px black;*/
 }
 .formspreedoc form{
@@ -175,7 +179,7 @@ ul{
 }
 .formspreedoc form div{
 	display: grid;
-	grid-template-columns: 2fr 7fr;
+	grid-template-columns: 2fr 9fr;
 	text-align: right;
 	margin-top: 10px;
 }
@@ -262,8 +266,12 @@ ul{
 .dfdfdf{
 	margin-right: 6px;
 }
-
-
+.divarr{
+	width: 100%;
+	height: 400px;
+	background: url('../spaceroom.jpg') center center;
+	border: ghostwhite 2px solid;
+}
 
 
 
