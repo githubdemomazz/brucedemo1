@@ -362,7 +362,7 @@ ul{
 		margin-left: 0px;
 		left: 0;
 		background-color: #f2f2f2;
-		width: 45%;
+		width: auto;
 		height: 95%;
 		border-right: #ccc 1px solid;
 		opacity: 0.9;
@@ -445,6 +445,9 @@ ul{
 	}
 	.footer1{
 		margin-top: 10px;
+	}
+	.vidjabox{
+		display: none;
 	}
 }
 @media(max-width:450px){
