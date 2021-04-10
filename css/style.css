@@ -129,7 +129,7 @@ ul{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin: auto;
-	border: 3px black solid;
+	border: 2px black solid;
 	background-color: #F0F0F0;
     /*box-shadow: 20px 20px black;*/
 }
@@ -139,13 +139,20 @@ ul{
 	padding-right: 10px;
 }
 .formspreedoc form textarea{
-width: 60%;
+	width: 90%;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	resize: none;
 }
 .formspreedoc form input[type="text"]{
-	width: 60%;
+	width: 90%;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 .formspreedoc form input[type="email"]{
-	width: 60%;
+	width: 90%;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
 .formspreedoc h1{
 	padding-left: 10px;
@@ -157,7 +164,8 @@ width: 60%;
 	padding-right: 10px;
 }
 .formspreedoc form button{
-	margin-top: 10px;
+	margin-top: 18px;
+	margin-bottom: 8px;
 	border: 2px white solid;
 	color: white;
 	background-color: green;
@@ -166,12 +174,99 @@ width: 60%;
 	padding: 15px 25px 15px 25px;		
 }
 .formspreedoc form div{
+	display: grid;
+	grid-template-columns: 2fr 7fr;
+	text-align: right;
+	margin-top: 10px;
+}
+/*.formspreedoc form div *:nth-child(odd){
+	justify-items: right;
+}
+.formspreedoc form div *:nth-child(even){
+	justify-items: left;
+}
+.formspreedoc form div label{
+	padding-right: 15px;
+}
+.formspreedoc form div{
 	display: flex;
 	align-items:  center;
 	justify-content: center;
 	padding-bottom: 8px;
 	padding-top: 8px;
-}
+	flex: 2 2 auto;
+}*/
 .formspreedoc2{
 	margin-top:30px;
 }
+.follower a img{
+	width: 25px;
+}
+.follower{
+	padding-top: 15px;
+	display: flex;
+}
+.follower *{
+	margin-right: 10px;
+}
+.footer1{
+	background: #f2f2f2;
+	color: #616161;
+	font-size: 12px;
+	padding: 35px 0;
+	margin-top: 15px;
+}
+.innerlinks{
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 12px;
+	align-items: flex-start;
+	justify-content: center;
+}
+.footer1 li{
+	line-height: 2.8;
+}
+.footmain{
+	
+}
+.innerfoot{
+	background-color: #f2f2f2;
+	color:#616161;
+	font-size: 12px;
+	padding: 35px 0;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.innerfoot ul{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.innerfoot ul li{
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+.hdcherd{
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	margin-right: 18px;
+}
+.dfdfdf{
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
