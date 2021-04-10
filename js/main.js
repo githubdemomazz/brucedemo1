@@ -13,6 +13,8 @@ function abcd(){
 	document.getElementById("getsanimage").style.backgroundRepeat = "no-repeat";
 };
 
-
+function qbdg(){
+	
+};
 
 

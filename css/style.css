@@ -272,7 +272,9 @@ ul{
 	background: url('../spaceroom.jpg') center center;
 	border: ghostwhite 2px solid;
 }
-
+.mapperbox{
+	visibility: hidden;
+}
 
 
 
