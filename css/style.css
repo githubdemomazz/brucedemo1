@@ -134,8 +134,8 @@ ul{
 	margin: auto;
 	border: 2px black solid;
 	background-color: #F0F0F0;
-	margin-top: 15px;
-    /*box-shadow: 20px 20px black;*/
+	/*margin-top: 15px;
+    box-shadow: 20px 20px black;*/
 }
 .formspreedoc form{
 	padding-top: 10px;
@@ -293,7 +293,38 @@ ul{
     width: 100% !important;
     height: 100% !important;
 }
-
+.vidjabox{
+	width: 100%;
+	/*padding: 20px;
+	margin: auto;
+	border: 2px black solid;*/
+	background-color: #F0F0F0;
+	display: grid;
+	grid-template-columns: 11fr 7fr;
+	grid-gap: 20px;
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+    /*box-shadow: 20px 20px black;*/
+}
+.vidjabox div h3, .vidjabox div p{
+	text-align: center;
+	font-style: italic;
+}
+.borderish {
+ 	position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+   	overflow: hidden;
+}	
+.borderish iframe{
+   	position: absolute;
+   	top: 0;
+   	left: 0;
+   	width: 100% !important;
+   	height: 100% !important;
+	border: 10px #cc5522 groove;
+}
 
 
 
