@@ -13,8 +13,17 @@ function abcd(){
 	document.getElementById("getsanimage").style.backgroundRepeat = "no-repeat";
 };
 
-function qbdg(){
-	
+function qbcd(){
+	document.getElementById("mapperboxsd1").style.paddingBottom = "75%";
+	document.getElementById("mapperboxsd1").style.height = "0";
+	document.getElementById("mapperboxsd2").style.paddingBottom = "75%";
+	document.getElementById("mapperboxsd2").style.height = "0";
+	document.getElementById("mapperboxs").style.visibility = "visible";
+	document.getElementById("mapperboxs").style.width = "auto";
+	document.getElementById("mapperboxs").style.height = "auto";
+};
+function abracadabra(){
+	document.getElementById("bbqribs").style.width = "100%";
 };
 
 
