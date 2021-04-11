@@ -357,7 +357,7 @@ ul{
 	}
 	.mainnav ul.mainmenu{
 		display: block;
-		position: absolute;
+		position: fixed;
 		top:0;
 		margin-left: 0px;
 		left: 0;
@@ -368,11 +368,12 @@ ul{
 		opacity: 0.9;
 		padding: 30px;
 		transform: translateX(-500px);
+		transition: transform 0.5s ease-in-out;
 	}
 	.mainnav ul.mainmenu li{
 		padding: 10px;
 		border-bottom: #ccc solid 1px;
-		font-size: 14px;
+		font-size: 18px;
 	}
 	.mainnav ul.mainmenu li:last-child{
 		border-bottom: 0;
